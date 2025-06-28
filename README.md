@@ -23,7 +23,7 @@ Clone this repository:
 
 ```bash
 cd ~/catkin_ws/src
-git clone <repository_url> ar_tag_landmark_nav
+git clone https://github.com/ArghyaChatterjee/april-tag-based-autonomous-navigation.git
 cd ~/catkin_ws
 catkin_make
 ```
