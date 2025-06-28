@@ -61,7 +61,7 @@ landmark:
   * CLI to define landmarks interactively.
 
 <div align="center">
-  <img src="images/landmark_manager.png" alt="Landmark Manager">
+  <img src="media/landmark_manager.png" alt="Landmark Manager">
 </div>
 
 * **landmark\_finder:**
