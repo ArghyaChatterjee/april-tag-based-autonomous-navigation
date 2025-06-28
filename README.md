@@ -1,5 +1,7 @@
-# landmark-based-autonomous-navigation-in-ros
+# AR Tag Landmark based Autonomous Navigation
+
 Predefined Landmarks (vertical or horizontal aruco markers) will be treated as points for ROS based robots to navigate to the destination avoiding obstacles.
+
 ## Overview
 This package contains Python modules and scripts, and supporting level ROS nodes to perform tasks using the AprilTag fiducals as landmarks. Using the landmarks along with a camera, it is possible denote items of interest in a space. This package is built on top of the [apriltag module](../../interbotix_perception_toolbox/interbotix_perception_modules/src/interbotix_perception_modules/apriltag.py) from the [interbotix_perception_modules package](../../interbotix_perception_toolbox/interbotix_perception_modules).
 
@@ -67,5 +69,5 @@ Tried to publish a visual representation of the goto markers, but the landmark h
 - Add special landmark labels that, when navigated to, trigger some function.
     - For example, navigating to a landmark labeled `kobuki_dock` triggers the auto_dock sequence.
 
-## Source 
-- [Interbotix ROS](https://github.com/Interbotix/interbotix_ros_toolboxes/tree/main/interbotix_common_toolbox/interbotix_landmark_modules)
+## Acknowledgement
+We would like to thank [Interbotix ROS](https://github.com/Interbotix/interbotix_ros_toolboxes/tree/main/interbotix_common_toolbox/interbotix_landmark_modules) for opensourcing their code.
